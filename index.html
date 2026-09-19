@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeKids — Program Coding Anak dan Remaja</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="nav-logo">
+        <div class="nav-logo-icon">🚀</div>
+        <!-- <div class="nav-logo-text">Code<span>Kids</span></div> -->
+      </div>
+      <div class="nav-badge">6 Paket Tersedia</div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+
+      <div class="hero-eyebrow">Program Coding untuk Anak dan Remaja</div>
+
+      <p class="hero-desc">
+        Dirancang sesuai usia, biar anak nggak cuma main HP tapi bisa
+        <strong>bikin aplikasi dan game sendiri.</strong>
+      </p>
+
+      <div class="hero-stats">
+        <div class="hstat">
+          <span class="hstat-n">6</span>
+          <div class="hstat-l">Paket Kursus</div>
+        </div>
+        <div class="hstat">
+          <span class="hstat-n">16</span>
+          <div class="hstat-l">Sesi per Paket</div>
+        </div>
+
+        <div class="hstat">
+          <span class="hstat-n">100%</span>
+          <div class="hstat-l">Ada Karya Nyata</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARDS -->
+    <section class="section">
+      <div class="section-head">
+        <h2>Pilih paket<br />sesuai usia anak 👇</h2>
+        <p>Klik kartu untuk lihat detail materi per sesi</p>
+      </div>
+
+      <div class="grid">
+        <!-- 1. Little Animator -->
+        <div class="card" onclick="show(0)">
+          <div
+            class="card-band"
+            style="background: linear-gradient(90deg, #f97316, #fb923c)"
+          ></div>
+          <div class="card-inner">
+            <div class="card-top-row">
+              <div class="card-emoji" style="background: #fff7ed">🎨</div>
+              <div class="card-badges">
+                <span
+                  class="rec-badge"
+                  style="
+                    background: #fff7ed;
+                    color: #ea580c;
+                    border-color: #fed7aa;
+                  "
+                  >Rekomendasi untuk anak TK hingga SD kelas 3</span
+                >
+              </div>
+            </div>
+            <div class="card-name">Little Animator</div>
+            <div class="card-tech">Scratch · Visual Coding</div>
+            <p class="card-desc">
+              Coding pertama anak, Gerakin karakter, bikin animasi, cerita
+              digital tanpa ngetik kode sama sekali.
+            </p>
+            <ul class="card-perks">
+              <li class="perk">
+                <span class="perk-icon" style="background: #fff7ed">🧠</span
+                >Melatih berpikir logis sejak dini
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fff7ed">🎭</span
+                >Ekspresi kreatif lewat animasi
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fff7ed">📐</span
+                >Belajar koordinat sambil main
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fff7ed">🏅</span
+                >Karya nyata: cerita dan animasi digital
+              </li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-sessions">16 sesi · 4 fase</span>
+              <button
+                class="card-btn"
+                style="background: linear-gradient(135deg, #f97316, #fb923c)"
+              >
+                Lihat Materi <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Game Creator -->
+        <div class="card" onclick="show(1)">
+          <div
+            class="card-band"
+            style="background: linear-gradient(90deg, #16a34a, #22c55e)"
+          ></div>
+          <div class="card-inner">
+            <div class="card-top-row">
+              <div class="card-emoji" style="background: #f0fdf4">🎮</div>
+              <div class="card-badges">
+                <span
+                  class="rec-badge"
+                  style="
+                    background: #f0fdf4;
+                    color: #15803d;
+                    border-color: #bbf7d0;
+                  "
+                  >Rekomendasi untuk anak SD kelas 4 hingga 6</span
+                >
+              </div>
+            </div>
+            <div class="card-name">Game Creator</div>
+            <div class="card-tech">Scratch Advanced</div>
+            <p class="card-desc">
+              Bukan cuma main game tapi bikin game sendiri! Skor, nyawa, level,
+              semua dibangun dari nol.
+            </p>
+            <ul class="card-perks">
+              <li class="perk">
+                <span class="perk-icon" style="background: #f0fdf4">🔀</span
+                >Logika kondisi dan variabel secara nyata
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #f0fdf4">🧩</span
+                >Problem solving saat game nggak jalan
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #f0fdf4">⏱️</span
+                >Gravitasi, timer, broadcasting
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #f0fdf4">🏅</span
+                >Game lengkap dengan level dan game over
+              </li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-sessions">16 sesi · 4 fase</span>
+              <button
+                class="card-btn"
+                style="background: linear-gradient(135deg, #16a34a, #22c55e)"
+              >
+                Lihat Materi <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Web Starter -->
+        <div class="card" onclick="show(2)">
+          <div
+            class="card-band"
+            style="background: linear-gradient(90deg, #2563eb, #3b82f6)"
+          ></div>
+          <div class="card-inner">
+            <div class="card-top-row">
+              <div class="card-emoji" style="background: #eff6ff">🌐</div>
+              <div class="card-badges">
+                <span
+                  class="rec-badge"
+                  style="
+                    background: #eff6ff;
+                    color: #1d4ed8;
+                    border-color: #bfdbfe;
+                  "
+                  >Rekomendasi untuk anak SD kelas 5 hingga SMP</span
+                >
+              </div>
+            </div>
+            <div class="card-name">Web Starter</div>
+            <div class="card-tech">HTML dan CSS</div>
+            <p class="card-desc">
+              Bangun website pertama dari nol! Belajar HTML dan CSS.
+            </p>
+            <ul class="card-perks">
+              <li class="perk">
+                <span class="perk-icon" style="background: #eff6ff">🔍</span
+                >Paham cara kerja website dari dalam
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #eff6ff">🎨</span
+                >Melatih rasa estetika dan desain visual
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #eff6ff">💼</span
+                >Skill relevan untuk karir masa depan
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #eff6ff">🌍</span
+                >Personal web CV online dengan URL sendiri
+              </li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-sessions">16 sesi · 4 fase</span>
+              <button
+                class="card-btn"
+                style="background: linear-gradient(135deg, #2563eb, #3b82f6)"
+              >
+                Lihat Materi <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Web Architect -->
+        <div class="card" onclick="show(3)">
+          <div
+            class="card-band"
+            style="background: linear-gradient(90deg, #7c3aed, #a855f7)"
+          ></div>
+          <div class="card-inner">
+            <div class="card-top-row">
+              <div class="card-emoji" style="background: #faf5ff">⚡</div>
+              <div class="card-badges">
+                <span
+                  class="rec-badge"
+                  style="
+                    background: #faf5ff;
+                    color: #7e22ce;
+                    border-color: #e9d5ff;
+                  "
+                  >Rekomendasi untuk anak SMP hingga SMA</span
+                >
+              </div>
+            </div>
+            <div class="card-name">Web Architect</div>
+            <div class="card-tech">CSS Lanjut dan JavaScript</div>
+            <p class="card-desc">
+              Naik level! Flexbox modern plus JavaScript buat ngidupin web dari
+              DOM manipulation hingga aplikasi interaktif.
+            </p>
+            <ul class="card-perks">
+              <li class="perk">
+                <span class="perk-icon" style="background: #faf5ff">⚡</span
+                >Kenal JavaScript, bahasa paling populer
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #faf5ff">📱</span>Web
+                responsif, rapi di HP dan laptop
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #faf5ff">🏗️</span
+                >Fondasi kuat untuk React dan Vue ke depannya
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #faf5ff">🏅</span
+                >Kalkulator web, to-do list, atau kuis
+              </li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-sessions">16 sesi · 4 fase</span>
+              <button
+                class="card-btn"
+                style="background: linear-gradient(135deg, #7c3aed, #a855f7)"
+              >
+                Lihat Materi <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Python Explorer -->
+        <div class="card" onclick="show(4)">
+          <div
+            class="card-band"
+            style="background: linear-gradient(90deg, #d97706, #f59e0b)"
+          ></div>
+          <div class="card-inner">
+            <div class="card-top-row">
+              <div class="card-emoji" style="background: #fffbeb">🐍</div>
+              <div class="card-badges">
+                <span
+                  class="rec-badge"
+                  style="
+                    background: #fffbeb;
+                    color: #b45309;
+                    border-color: #fef08a;
+                  "
+                  >Rekomendasi untuk anak SMP hingga SMA</span
+                >
+              </div>
+            </div>
+            <div class="card-name">Python Explorer</div>
+            <div class="card-tech">Python</div>
+            <p class="card-desc">
+              Python d Belajar coding sungguhan lewat terminal dari logika dasar
+              hingga menjadi sebuah sistem
+            </p>
+            <ul class="card-perks">
+              <li class="perk">
+                <span class="perk-icon" style="background: #fffbeb">🤖</span
+                >Bahasa AI dan Data Science masa depan
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fffbeb">🧮</span
+                >Kemampuan algoritmik dan pecahkan masalah
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fffbeb">✨</span
+                >Sintaks bersih, bahasa serius pertama
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fffbeb">🏅</span
+                >Kasir CLI atau game RPG berbasis teks
+              </li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-sessions">16 sesi · 4 fase</span>
+              <button
+                class="card-btn"
+                style="background: linear-gradient(135deg, #d97706, #f59e0b)"
+              >
+                Lihat Materi <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. CS Fundamentals -->
+        <div class="card" onclick="show(5)">
+          <div
+            class="card-band"
+            style="background: linear-gradient(90deg, #dc2626, #ef4444)"
+          ></div>
+          <div class="card-inner">
+            <div class="card-top-row">
+              <div class="card-emoji" style="background: #fff5f5">⚙️</div>
+              <div class="card-badges">
+                <span
+                  class="rec-badge"
+                  style="
+                    background: #fff5f5;
+                    color: #b91c1c;
+                    border-color: #fecaca;
+                  "
+                  >Rekomendasi untuk anak SMA</span
+                >
+              </div>
+            </div>
+            <div class="card-name">CS Fundamentals</div>
+            <div class="card-tech">Bahasa C</div>
+            <p class="card-desc">
+              Level tertinggi! Bahasa C adalah fondasi dari hampir semua bahasa
+              modern. Anak paham cara komputer kerja dari level memori.
+            </p>
+            <ul class="card-perks">
+              <li class="perk">
+                <span class="perk-icon" style="background: #fff5f5">🎓</span
+                >Fondasi CS untuk kuliah Informatika dan Teknik
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fff5f5">🧠</span
+                >Manajemen memori, konsep yang jarang diajarkan
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fff5f5">🚀</span
+                >Pindah ke bahasa apapun jadi gampang
+              </li>
+              <li class="perk">
+                <span class="perk-icon" style="background: #fff5f5">🏅</span
+                >Sistem inventaris atau database nilai murid
+              </li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-sessions">16 sesi · 4 fase</span>
+              <button
+                class="card-btn"
+                style="background: linear-gradient(135deg, #dc2626, #ef4444)"
+              >
+                Lihat Materi <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="overlay" id="ov" onclick="bgClick(event)">
+      <div class="modal">
+        <div class="mh" id="mh">
+          <div class="mh-bg-blur" id="mhBg"></div>
+          <div class="mh-row">
+            <div class="mh-emoji" id="mEmoji"></div>
+            <div class="mh-texts">
+              <div class="mh-title" id="mTitle"></div>
+              <div class="mh-sub" id="mSub"></div>
+            </div>
+            <button class="mh-close" onclick="hide()">✕</button>
+          </div>
+        </div>
+        <div class="mstats" id="mStats"></div>
+        <div class="mbody" id="mBody"></div>
+      </div>
+    </div>
+
+    <!-- PREVIEW SUB-MODAL -->
+    <div class="pov" id="previewOv" onclick="closePreviewBg(event)">
+      <div class="pmodal">
+        <div class="pm-head">
+          <h3 id="pTitle">Output</h3>
+          <button class="pm-close" onclick="closePreview()">✕</button>
+        </div>
+        <div class="pm-body">
+          <div class="pm-visual" id="pVisual"></div>
+          <div class="pm-desc" id="pDesc"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
